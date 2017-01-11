@@ -3,25 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
   <div id="header">
-    <div class="container">
+    <div class="container clearfix">
 
       <div id="logo">
           <img src="http://lorempixel.com/112/100/" alt="Massive">
       </div>
 
       <div id="nav">
-          <ul>
+          <ul class="clearfix">
               <li><a href="#header">home</a></li>
               <li><a href="#footer">footer</a></li>
-              <li><a class="active" href="#content">feature</a></li>
+              <li class="active"><a href="#content">feature</a></li>
               <li><a href="#">portfolio</a></li>
               <li><a href="#">blogs</a></li>
               <li><a href="#">shortcodes</a></li>
-              <li><a class="boundary" href="#">shop</a></li>
+              <li class="boundary"><a href="#">shop</a></li>
               <li><a href="#">chart(2)</a></li>
               <li><a href="#">search</a></li>
           </ul>
@@ -35,29 +38,29 @@
         <img src="http://lorempixel.com/1920/1080" alt="slider">
     </div>
 
-    <div class="category">
+    <div class="categories">
       <div class="container">
 
-        <div class="row">
-          <div class="col-6"><a href="#">
+        <div class="row clearfix">
+          <div class="col-6 category"><a href="#">
             <img src="http://lorempixel.com/575/265" alt="category">
-            <span class="title">outdoor lighting</span>
+            <span class="title dark">outdoor<br>lighting</span>
           </a></div>
-          <div class="col-6"><a href="#">
+          <div class="col-6 category"><a href="#">
             <img src="http://lorempixel.com/575/265" alt="category">
-            <span class="title">wooden flooring</span>
+            <span class="title dark">wooden<br>flooring</span>
           </a></div>
-          <div class="col-4"><a href="#">
+          <div class="col-4 category"><a href="#">
             <img src="http://lorempixel.com/379/265" alt="category">
-            <span class="title">living area</span>
+            <span class="title light">living<br>area</span>
           </a></div>
-          <div class="col-4"><a href="#">
+          <div class="col-4 category"><a href="#">
             <img src="http://lorempixel.com/379/265" alt="category">
-            <span class="title">bathroom fittings</span>
+            <span class="title light">bathroom<br>fittings</span>
           </a></div>
-          <div class="col-4"><a href="#">
+          <div class="col-4 category"><a href="#">
             <img src="http://lorempixel.com/379/265" alt="category">
-            <span class="title">tools &amp; equipment</span>
+            <span class="title light">tools &amp; equipment</span>
           </a></div>
         </div>
 
@@ -74,73 +77,98 @@
         </div>
 
         <div class="products">
-          <ul>
-            <li>
-              <img src="http://lorempixel.com/370/277" alt="product">
-              <h3 class="title">
-                  <a href="#">Lorem ipsum dolor.</a>
-              </h3>
-              <div class="price">$39.99</div>
+          <ul class="clearfix row">
 
-              <div class="cover">
-                O
+            <li class="col-4 product">
+              <div class="thumbnail">
+                <img src="http://lorempixel.com/370/277" alt="product">
+                <div class="cover">
+                  <a href="#">0</a>
+                </div>
+              </div>
+              <div class="info">
+                <h3 class="title">
+                  <a href="#">Lorem ipsum dolor.</a>
+                </h3>
+                <div class="price">$39.99</div>
               </div>
             </li>
-            <li>
-              <img src="http://lorempixel.com/370/277" alt="product">
-              <h3 class="title">
-                  <a href="#">Lorem ipsum dolor.</a>
-              </h3>
-              <div class="price">$39.99</div>
 
-              <div class="cover">
-                O
+            <li class="col-4 product">
+              <div class="thumbnail">
+                <img src="http://lorempixel.com/370/277" alt="product">
+                <div class="cover">
+                  <a href="#">0</a>
+                </div>
+              </div>
+              <div class="info">
+                <h3 class="title">
+                  <a href="#">Lorem ipsum dolor.</a>
+                </h3>
+                <div class="price">$39.99</div>
               </div>
             </li>
-            <li>
-              <img src="http://lorempixel.com/370/277" alt="product">
-              <h3 class="title">
-                  <a href="#">Lorem ipsum dolor.</a>
-              </h3>
-              <div class="price">$39.99</div>
 
-              <div class="cover">
-                O
+            <li class="col-4 product">
+              <div class="thumbnail">
+                <img src="http://lorempixel.com/370/277" alt="product">
+                <div class="cover">
+                  <a href="#">0</a>
+                </div>
+              </div>
+              <div class="info">
+                <h3 class="title">
+                  <a href="#">Lorem ipsum dolor.</a>
+                </h3>
+                <div class="price">$39.99</div>
               </div>
             </li>
-            <li>
-              <img src="http://lorempixel.com/370/277" alt="product">
-              <h3 class="title">
-                  <a href="#">Lorem ipsum dolor.</a>
-              </h3>
-              <div class="price">$39.99</div>
 
-              <div class="cover">
-                O
+            <li class="col-4 product">
+              <div class="thumbnail">
+                <img src="http://lorempixel.com/370/277" alt="product">
+                <div class="cover">
+                  <a href="#">0</a>
+                </div>
+              </div>
+              <div class="info">
+                <h3 class="title">
+                  <a href="#">Lorem ipsum dolor.</a>
+                </h3>
+                <div class="price">$39.99</div>
               </div>
             </li>
-            <li>
-              <img src="http://lorempixel.com/370/277" alt="product">
-              <h3 class="title">
-                  <a href="#">Lorem ipsum dolor.</a>
-              </h3>
-              <div class="price">$39.99</div>
 
-              <div class="cover">
-                O
+            <li class="col-4 product">
+              <div class="thumbnail">
+                <img src="http://lorempixel.com/370/277" alt="product">
+                <div class="cover">
+                  <a href="#">0</a>
+                </div>
+              </div>
+              <div class="info">
+                <h3 class="title">
+                  <a href="#">Lorem ipsum dolor.</a>
+                </h3>
+                <div class="price">$39.99</div>
               </div>
             </li>
-            <li>
-              <img src="http://lorempixel.com/370/277" alt="product">
-              <h3 class="title">
-                  <a href="#">Lorem ipsum dolor.</a>
-              </h3>
-              <div class="price">$39.99</div>
 
-              <div class="cover">
-                O
+            <li class="col-4 product">
+              <div class="thumbnail">
+                <img src="http://lorempixel.com/370/277" alt="product">
+                <div class="cover">
+                  <a href="#">0</a>
+                </div>
+              </div>
+              <div class="info">
+                <h3 class="title">
+                  <a href="#">Lorem ipsum dolor.</a>
+                </h3>
+                <div class="price">$39.99</div>
               </div>
             </li>
+
           </ul>
         </div>
 
@@ -159,82 +187,88 @@
     </div>
 
     <div class="feature">
-      <div class="container">
+      <div class="container clearfix">
 
         <div class="col-6">
-          <img src="http://lorempixel.com/525/453" alt="product">
+          <img src="http://lorempixel.com/500/453" alt="product">
         </div>
-        <div class="col-6">
+        <div class="col-6 info">
           <div class="title">featured item</div>
-          <h3>antic single sofa</h3>
+          <h3 class="name">antic single sofa</h3>
 
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad sequi, quae, quas animi vero eaque?</p>
 
           <div class="price">$240</div>
-          <a href="#">buy now</a>
+          <a href="#" class="button bordered">buy now</a>
         </div>
 
       </div>
     </div>
 
+    <hr>
+
     <div class="outlets">
       <div class="container">
 
-        <h2>outlets</h2>
-        <hr/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam totam a, sed.</p>
-
-        <div class="col-4 outlet">
-          <h3>sydney</h3>
-          <div class="info">
-            <div class="address">Lorem ipsum dolor sit amet, consectetur.</div>
-            <div class="phone">
-              <label>phone:</label>
-              <a href="tel:+62-500-800-123">+62 500 800 123</a>
-            </div>
-            <div class="email">
-              <label>email:</label>
-              <a href="mailto:testmail@yourdomain.com">testmail@yourdomain.com</a>
-            </div>
-          </div>
-          <div class="map">
-            <a href="#" target="_blank">new map</a>
-          </div>
+        <div class="intro">
+          <h2>outlets</h2>
+          <hr>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam totam a, sed.</p>
         </div>
 
-        <div class="col-4 outlet">
-          <h3>sydney</h3>
-          <div class="info">
-            <div class="address">Lorem ipsum dolor sit amet, consectetur.</div>
-            <div class="phone">
-              <label>phone:</label>
-              <a href="tel:+62-500-800-123">+62 500 800 123</a>
+        <div class="row clearfix">
+          <div class="col-4 outlet">
+            <h3>sydney</h3>
+            <div class="info">
+              <div class="address">Lorem ipsum dolor sit amet, consectetur.</div>
+              <div class="phone">
+                <label>phone:</label>
+                <a href="tel:+62-500-800-123">+62 500 800 123</a>
+              </div>
+              <div class="email">
+                <label>email:</label>
+                <a href="mailto:testmail@yourdomain.com">testmail@yourdomain.com</a>
+              </div>
             </div>
-            <div class="email">
-              <label>email:</label>
-              <a href="mailto:testmail@yourdomain.com">testmail@yourdomain.com</a>
+            <div class="map">
+              <a href="#" target="_blank">new map</a>
             </div>
           </div>
-          <div class="map">
-            <a href="#" target="_blank">new map</a>
-          </div>
-        </div>
 
-        <div class="col-4 outlet">
-          <h3>sydney</h3>
-          <div class="info">
-            <div class="address">Lorem ipsum dolor sit amet, consectetur.</div>
-            <div class="phone">
-              <label>phone:</label>
-              <a href="tel:+62-500-800-123">+62 500 800 123</a>
+          <div class="col-4 outlet">
+            <h3>sydney</h3>
+            <div class="info">
+              <div class="address">Lorem ipsum dolor sit amet, consectetur.</div>
+              <div class="phone">
+                <label>phone:</label>
+                <a href="tel:+62-500-800-123">+62 500 800 123</a>
+              </div>
+              <div class="email">
+                <label>email:</label>
+                <a href="mailto:testmail@yourdomain.com">testmail@yourdomain.com</a>
+              </div>
             </div>
-            <div class="email">
-              <label>email:</label>
-              <a href="mailto:testmail@yourdomain.com">testmail@yourdomain.com</a>
+            <div class="map">
+              <a href="#" target="_blank">new map</a>
             </div>
           </div>
-          <div class="map">
-            <a href="#" target="_blank">new map</a>
+
+          <div class="col-4 outlet">
+            <h3>sydney</h3>
+            <div class="info">
+              <div class="address">Lorem ipsum dolor sit amet, consectetur.</div>
+              <div class="phone">
+                <label>phone:</label>
+                <a href="tel:+62-500-800-123">+62 500 800 123</a>
+              </div>
+              <div class="email">
+                <label>email:</label>
+                <a href="mailto:testmail@yourdomain.com">testmail@yourdomain.com</a>
+              </div>
+            </div>
+            <div class="map">
+              <a href="#" target="_blank">new map</a>
+            </div>
           </div>
         </div>
 
@@ -243,7 +277,7 @@
   </div>
 
   <div id="footer">
-    <div class="container">
+    <div class="container clearfix">
 
       <div class="logo">
         <img src="http://lorempixel.com/57/52" alt="massive">
@@ -255,7 +289,7 @@
       </div>
 
       <div class="social-media">
-        <ul>
+        <ul class="clearfix">
           <li><a href="#">f</a></li>
           <li><a href="#">t</a></li>
           <li><a href="#">d</a></li>
@@ -264,10 +298,12 @@
         </ul>
       </div>
 
-      <div class="go-top">top</div>
+
 
     </div>
   </div>
+
+  <a href="#header" class="go-top">top</a>
 
 </body>
 </html>
